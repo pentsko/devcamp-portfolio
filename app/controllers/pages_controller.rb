@@ -9,4 +9,9 @@ class PagesController < ApplicationController
 
   def contoct
   end
+
+  def something
+   @else = params[:else]
+   @another = params[:another]
+  end
 end
